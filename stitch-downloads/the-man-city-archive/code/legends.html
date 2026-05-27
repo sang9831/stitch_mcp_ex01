@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>City Legends | Manchester City FC</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@400;600;700&family=Hanken+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --city-blue: #176391;
+    --city-sky: #6cabdd;
+    --city-navy: #1c2c5b;
+    --city-gold: #ffc217;
+    --city-surface: #f9f9f9;
+    --city-text: #1a1c1c;
+  }
+
+  body {
+    font-family: "Hanken Grotesk", sans-serif;
+    background: var(--city-surface);
+    color: var(--city-text);
+  }
+
+  h1, h2, h3, .brand-mark, .display-font {
+    font-family: "Archivo Narrow", sans-serif;
+  }
+
+  .hero-overlay {
+    background: linear-gradient(90deg, rgba(23, 99, 145, 0.92) 0%, rgba(23, 99, 145, 0.72) 44%, rgba(23, 99, 145, 0.12) 100%);
+  }
+
+  .feature-overlay {
+    background: linear-gradient(180deg, rgba(10, 17, 31, 0.06) 0%, rgba(10, 17, 31, 0.76) 100%);
+  }
+
+  .glass-panel {
+    background: rgba(255, 255, 255, 0.84);
+    backdrop-filter: blur(12px);
+  }
+
+  .letter-spacing {
+    letter-spacing: 0.3em;
+  }
+
+  .ratio-3x4 {
+    --bs-aspect-ratio: 133.333333%;
+  }
+
+  .opacity-10 {
+    opacity: 0.1;
+  }
+</style>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg fixed-top bg-white border-bottom shadow-sm">
+  <div class="container-xxl">
+    <a class="navbar-brand brand-mark fw-bold text-primary" href="#">MAN CITY</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#cityNav" aria-controls="cityNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="cityNav">
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0 text-uppercase small fw-semibold">
+        <li class="nav-item"><a class="nav-link text-secondary" href="../code/index.html">History</a></li>
+        <li class="nav-item"><a class="nav-link text-secondary" href="../code/squad-25-26.html">25/26 Squad</a></li>
+        <li class="nav-item"><a class="nav-link active text-primary border-bottom border-2 border-primary" href="#">Legends</a></li>
+      </ul>
+      <div class="d-flex align-items-center gap-2">
+        <button class="btn btn-outline-secondary btn-sm text-uppercase fw-bold">Search</button>
+        <button class="btn btn-primary btn-sm text-uppercase fw-bold">Tickets</button>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<main class="pt-5">
+  <section class="position-relative overflow-hidden text-white">
+    <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuCUdE5TLWGMJ3sLHu2LhJfBfbYyZJidc3Www2O0sGIhQXWInUcjy6OERVa8XfNiPtlbxS42Ix0zQVjsm0hB9k6O31PKjl0nfMxyeTo4wGzn-JMHXnbHBLUWp6T2_doHewM5PfPp-lJg-oj3R6eFjcn1-67n78QFWtiRGcCbCBq9zbNek0FZAb30npmdLEDwoqi2GQVjf8cU_3_aPB2ZR5wSqpM27_q5FQfpJSx2AsMscqLn67AeVvy4FoMa5vkDSeWZSq40JRPAsiI0" class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover opacity-50" alt="Etihad Stadium in Manchester">
+    <div class="position-absolute top-0 start-0 w-100 h-100 hero-overlay"></div>
+    <div class="container-xxl position-relative py-5" style="min-height: 72vh;">
+      <div class="row align-items-end h-100 py-5">
+        <div class="col-lg-8">
+          <span class="text-uppercase fw-bold small text-warning letter-spacing mb-3 d-inline-block">The Immortals</span>
+          <h1 class="display-2 fw-bold text-uppercase mb-3">City Legends</h1>
+          <p class="lead col-lg-10 mb-0 opacity-75">
+            Honouring the icons who defined the club identity, broke records, and shaped the modern dynasty.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container-xxl py-5 py-lg-5">
+    <div class="row g-4 align-items-center">
+      <div class="col-lg-7">
+        <div class="position-relative">
+          <div class="position-absolute top-0 start-0 translate-middle border-top border-start border-4 border-warning" style="width: 5rem; height: 5rem;"></div>
+          <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuDbBqTLiYs_8zarLNbSryau6ObpoF4kPWsX6Yyx_txWyEAkAUGHL2fr19kLTUAp4t1VtYFKaG1ZufqXe-5gMaJuXh05GxvGaP13ayjW6jof5opp-HA6mls6xFSKbFUzXpvVqO1IZvmwFEP2NTndXttJELfF1d1UXd8H1wuuCCUKm5cQ6rIDhzSSDh1chBkuahgfSy-RWhZywCuLrYpD0OsVcUXoRsG2Tjk2RqoLDKLcmgTThPNc5k5dbRel7r6PE4jMdzSFQNVbN5T3" class="img-fluid shadow-lg" alt="Sergio Aguero celebration">
+          <div class="position-absolute bottom-0 end-0 m-3 bg-warning text-dark shadow-lg p-3 p-md-4">
+            <div class="display-font display-4 fw-bold lh-1">93:20</div>
+            <div class="text-uppercase small fw-bold">The moment</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-5">
+        <div class="text-uppercase small fw-bold text-primary mb-2">Feature Legend</div>
+        <h2 class="display-font display-5 fw-bold text-uppercase mb-3 text-primary">Sergio Aguero</h2>
+        <p class="fst-italic text-secondary mb-3">"I swear you'll never see anything like this ever again."</p>
+        <div class="section-rule mb-4" style="height: 1px; background: rgba(23,99,145,.16); width: 5rem;"></div>
+        <p class="text-secondary">
+          The late winner against QPR did more than win a title. It reshaped the club's modern identity and turned Aguero into a permanent symbol of City.
+        </p>
+        <div class="row g-3 pt-2">
+          <div class="col-6">
+            <div class="border-start border-3 border-primary ps-3">
+              <div class="display-font display-5 fw-bold text-primary lh-1">260</div>
+              <div class="text-uppercase small fw-bold text-secondary">Total goals</div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="border-start border-3 border-primary ps-3">
+              <div class="display-font display-5 fw-bold text-primary lh-1">5</div>
+              <div class="text-uppercase small fw-bold text-secondary">Premier League titles</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-light py-5 py-lg-5">
+    <div class="container-xxl">
+      <div class="text-center mb-4">
+        <div class="text-uppercase small fw-bold text-primary mb-2">Hall of Fame</div>
+        <h2 class="display-font display-5 fw-bold text-uppercase mb-0">Three Pillars</h2>
+      </div>
+      <div class="row row-cols-1 row-cols-lg-3 g-4">
+        <div class="col">
+          <article class="card border-0 shadow-sm h-100 overflow-hidden glass-panel">
+            <div class="ratio ratio-3x4">
+              <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuBtCg2YIZ_TM3izC-JMvlBQMO6C-PeTferQOlxF2ZTBhPVUzWbuXnigORPjp0b8QkDRlZWGEwyMVQauEwbvSf3AnhhBECXXTkeIgJ-r7LnlmRmM0IRqAXZKI9lP58rcBaLk7Cz8xSlKcM7LSGd7vUtlIbi86EButYvO5ZZCUzzyVN3e0a-1nq-F5tD3DCTcrxGXHh6roQy3nyFImANl8QiRRpWRcufNtnLWuQ_j2E-jpb-_AZnHYiASfv-rzMoKYykqkq5vMlvUgJSK" class="w-100 h-100 object-fit-cover" alt="David Silva">
+            </div>
+            <div class="card-body">
+              <h3 class="display-font fw-bold text-uppercase mb-1 text-primary">David Silva</h3>
+              <div class="text-uppercase small fw-bold text-warning mb-3">El Mago</div>
+              <p class="mb-0 text-secondary">A decade of technical precision, vision, and control. Silva became the club's master architect.</p>
+            </div>
+          </article>
+        </div>
+        <div class="col">
+          <article class="card border-0 shadow-sm h-100 overflow-hidden glass-panel">
+            <div class="ratio ratio-3x4">
+              <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuCwZUxeVDl8JkuOsOqqHOQdauoUDPps4j7sZjoy5KeUyXShCMIsD1S8vGBzyj5w01EREtqqDQf8dNsFG2ynkvK7JCkyqvMC5SCZCpUTmqoFQJ1VXc5sOJpogIze0r8YKkKilRJ6yLV9O4nlrVCTxnOpXaP0J9MWKqBw3zQ1CZEYSr3WEOQjstoShZSkA6aquVnDB_yU5tsszYqHD5xfdID3EGXxuH9B8vqFQPveNI_C2ysKb4bKsJNcqj4_iqosBcorH70qcuybZZyA" class="w-100 h-100 object-fit-cover" alt="Vincent Kompany">
+            </div>
+            <div class="card-body">
+              <h3 class="display-font fw-bold text-uppercase mb-1 text-primary">Vincent Kompany</h3>
+              <div class="text-uppercase small fw-bold text-warning mb-3">The Captain</div>
+              <p class="mb-0 text-secondary">Leadership, resilience, and standards that defined the modern rise of the club.</p>
+            </div>
+          </article>
+        </div>
+        <div class="col">
+          <article class="card border-0 shadow-sm h-100 overflow-hidden glass-panel">
+            <div class="ratio ratio-3x4">
+              <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuAAG2HG-dW2iuentATY8JatzD9rhP8QCeR8Z8mIxg6bpcJMgTdeTBzxG5WOPyWz9I4gCNudAOulo9-leVJSJfI8WoDXlGF6KPhzYhv80N6rjnWPM0bBDksO5WYdI_tHGFmJDL9FK0oVx-jem6-qUf2Badjl_2iTP1r-vXS7Gwmt_7svp6lgXfIDNxcCa_XX8VSsv6t1frXEULz4RMXiea9dCdkvhHu75PeTcxh6NaHvlUhXpvSC3V6FsHemhCsYWCjlfWg1j9_TH0Vq" class="w-100 h-100 object-fit-cover" alt="Colin Bell">
+            </div>
+            <div class="card-body">
+              <h3 class="display-font fw-bold text-uppercase mb-1 text-primary">Colin Bell</h3>
+              <div class="text-uppercase small fw-bold text-warning mb-3">The King of the Kippax</div>
+              <p class="mb-0 text-secondary">A player from City's golden era, remembered for elegance, endurance, and complete influence.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-primary text-white py-5 py-lg-5">
+    <div class="container-xxl">
+      <div class="row row-cols-2 row-cols-lg-4 g-4 text-center">
+        <div class="col">
+          <div class="py-3">
+            <div class="display-font display-3 fw-bold text-warning">157</div>
+            <div class="text-uppercase small fw-bold opacity-75">Colin Bell goals</div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="py-3">
+            <div class="display-font display-3 fw-bold text-warning">260</div>
+            <div class="text-uppercase small fw-bold opacity-75">Aguero record</div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="py-3">
+            <div class="display-font display-3 fw-bold text-warning">436</div>
+            <div class="text-uppercase small fw-bold opacity-75">Silva games</div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="py-3">
+            <div class="display-font display-3 fw-bold text-warning">34</div>
+            <div class="text-uppercase small fw-bold opacity-75">Trophies combined</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container-xxl py-5 py-lg-5">
+    <div class="row g-4 align-items-center">
+      <div class="col-lg-6 order-2 order-lg-1">
+        <div class="text-uppercase small fw-bold text-warning mb-2">Heritage Profile</div>
+        <h2 class="display-font display-5 fw-bold text-uppercase text-primary mb-3">Francis Lee</h2>
+        <p class="text-secondary mb-4">
+          A dynamic forward who helped drive City's 1968 First Division triumph and embodied the club's defiant spirit.
+        </p>
+        <ul class="list-group list-group-flush mb-4">
+          <li class="list-group-item px-0 d-flex align-items-center gap-3">
+            <span class="badge bg-warning text-dark rounded-pill">1</span>
+            <span class="fw-semibold">League champion 1967/68</span>
+          </li>
+          <li class="list-group-item px-0 d-flex align-items-center gap-3">
+            <span class="badge bg-warning text-dark rounded-pill">2</span>
+            <span class="fw-semibold">European Cup Winners' Cup 1970</span>
+          </li>
+          <li class="list-group-item px-0 d-flex align-items-center gap-3">
+            <span class="badge bg-warning text-dark rounded-pill">3</span>
+            <span class="fw-semibold">FA Cup winner 1969</span>
+          </li>
+        </ul>
+        <a class="btn btn-outline-primary text-uppercase fw-bold px-4 py-3" href="#">Explore the 60s Era</a>
+      </div>
+      <div class="col-lg-6 order-1 order-lg-2">
+        <div class="border border-2 border-warning p-2 shadow-sm bg-white">
+          <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuBhkEs2mdQBYmcRKWPtYPbEwBYQYKClg4MzSBcJRVOtsy556mG79aS9RiAcOuXWGKfZutDaTejdmQGh5hJGG2B37S0BTmVlsWCeUNozqwSuMQGcwUYWO2uqacFpws1AWBPGIJjEY-wAS1OTGmq5XDK_iFB6r9iP8fqgqHX3syiDmAbxM2QUcAzBEF8AFSGYkqZHNciXILvpnbZwJNql6lgziMP_J_BSsQhz9BOLQhoeAAYxJcqigI0GzMBbqz1pnqILAvKZBDnum0vd" class="img-fluid w-100" alt="Historic football image">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="position-relative overflow-hidden py-5 py-lg-5 bg-primary text-white">
+    <div class="position-absolute top-0 start-0 w-100 h-100 opacity-10">
+      <div class="container-fluid h-100">
+        <div class="row h-100 g-0">
+          <div class="col border-end border-white border-opacity-25"></div>
+          <div class="col border-end border-white border-opacity-25"></div>
+          <div class="col border-end border-white border-opacity-25"></div>
+          <div class="col border-end border-white border-opacity-25"></div>
+          <div class="col border-end border-white border-opacity-25"></div>
+          <div class="col border-end border-white border-opacity-25"></div>
+          <div class="col border-end border-white border-opacity-25"></div>
+          <div class="col border-end border-white border-opacity-25"></div>
+          <div class="col border-end border-white border-opacity-25"></div>
+          <div class="col border-end border-white border-opacity-25"></div>
+        </div>
+      </div>
+    </div>
+    <div class="container-xxl position-relative">
+      <div class="row align-items-center g-4">
+        <div class="col-lg-8">
+          <h2 class="display-font display-5 fw-bold text-uppercase mb-3">Superbia in Proelio</h2>
+          <p class="mb-0 opacity-75 col-lg-10">
+            The club's history is still expanding, and every legend above remains a reference point for the next generation.
+          </p>
+        </div>
+        <div class="col-lg-4 text-lg-end">
+          <a class="btn btn-warning text-uppercase fw-bold px-4 py-3" href="../code/squad-25-26.html">View the Squad</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="bg-dark text-white">
+  <div class="container-xxl py-5">
+    <div class="d-flex flex-column flex-md-row justify-content-between align-items-md-center gap-3">
+      <div>
+        <div class="brand-mark fw-bold fs-2">MAN CITY</div>
+        <div class="text-white-50 small">The Man City Archive</div>
+      </div>
+      <div class="d-flex flex-wrap gap-3 text-uppercase small fw-semibold">
+        <a class="link-light text-decoration-none" href="../code/index.html">History</a>
+        <a class="link-light text-decoration-none" href="../code/squad-25-26.html">Squad</a>
+        <a class="link-light text-decoration-none" href="#">Legends</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
